@@ -10,6 +10,6 @@ switch (state) {
 		EnemyState_Hit();
 		break;
 	case ENEMYSTATE.DEAD:
-		EnemyState_Dead();
+		EnemyState_Dead(enemy_type, max_hp);
 		break;
 }
