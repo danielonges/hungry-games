@@ -3,13 +3,13 @@
 function EnemyState_Dead(enemy_type, max_hp){
 	switch (enemy_type) {
 		case ENEMYTYPE.FAT:
-			global.hp += max_hp;
+			global.hp = clamp(global.hp + max_hp, 0, 30);
 			break;
 		case ENEMYTYPE.PROTEIN:
-			global.energy += max_hp;
+			global.energy = clamp(global.energy + max_hp, 0, 30);
 			break;
 		case ENEMYTYPE.CARB:
-			global.hp += max_hp;
+			global.hp = clamp(global.hp + max_hp, 0, 30);
 			break;
 	}
 }
