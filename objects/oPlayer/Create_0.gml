@@ -12,8 +12,10 @@ walksp = 3;
 // jumping speed
 jumpsp = 6;
 
-hp = 30;
-max_hp = hp;
+global.hp = 30;
+max_hp = global.hp;
+
+global.energy = 0;
 
 spoon_cooldown = 0.3;
 
