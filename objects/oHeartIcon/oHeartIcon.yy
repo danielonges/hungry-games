@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sHealthBar",
-    "path": "sprites/sHealthBar/sHealthBar.yy",
+    "name": "sHeartIcon",
+    "path": "sprites/sHeartIcon/sHeartIcon.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHealthBar",
+  "name": "oHeartIcon",
   "tags": [],
   "resourceType": "GMObject",
 }

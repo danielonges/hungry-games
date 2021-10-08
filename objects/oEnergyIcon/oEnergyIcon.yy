@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sHealthBar",
-    "path": "sprites/sHealthBar/sHealthBar.yy",
+    "name": "sEnergyIcon",
+    "path": "sprites/sEnergyIcon/sEnergyIcon.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHealthBar",
+  "name": "oEnergyIcon",
   "tags": [],
   "resourceType": "GMObject",
 }

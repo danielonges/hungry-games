@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_set_font(fHealthBar);
-draw_text(x + 20, y + 20, "Health: " + string(global.hp));
-draw_text(x + 20, y + 46, "Energy: " + string(global.energy));
+var barLength = 30 * (global.hp / 30); 
+draw_sprite_ext(sHealthBar, 0, 100, 20, barLength, 1, 0, c_white, 1);
