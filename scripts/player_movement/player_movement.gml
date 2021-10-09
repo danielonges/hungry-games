@@ -10,6 +10,16 @@ function player_movement(){
 	if (place_meeting(x, y + 1, oWall) && key_jump) {
 		vsp = -jumpsp;
 	}
+	
+	// Collision with enemy
+	if (place_meeting(x, y, oEnemy)) {
+		direction = oEnemy.hit_from;
+		// bounce backwards upon collision
+		hsp = lengthdir_x(-sign(hsp) * 20, direction);
+		vsp = lengthdir_y(3, direction);
+		
+		global.hp = clamp(global.hp - 2, 0, 30); // TODO: replace 2 with actual dmg dealt
+	}
 
 	// horizontal collision
 	if (place_meeting(x + hsp, y, oWall)) {
