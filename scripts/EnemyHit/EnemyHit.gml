@@ -4,7 +4,7 @@ function EnemyHit(_damage){
 	
 	hp -= _damage;
 	flash = 3;
-	hit_from = other.direction;
+	hit_from = sign(x - oPlayer.x) * 3;
 	
 	if (hp > 0) {
 		state = ENEMYSTATE.HIT;

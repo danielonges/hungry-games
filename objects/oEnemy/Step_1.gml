@@ -8,3 +8,7 @@ if (hp <= 0) {
 	}
 	instance_destroy();	
 }
+
+if (hsp == 0) {
+	hsp = walksp;
+}
