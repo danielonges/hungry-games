@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 9,
-  "bbox_right": 57,
-  "bbox_top": 0,
-  "bbox_bottom": 61,
+  "bbox_left": 3,
+  "bbox_right": 60,
+  "bbox_top": 4,
+  "bbox_bottom": 28,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9f9caa38-b01b-4355-905f-10459cb677ea","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9f9caa38-b01b-4355-905f-10459cb677ea","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"LayerId":{"name":"60d357c1-8c59-4a59-8afb-363339e8ce12","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnergyIcon","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"resourceVersion":"1.0","name":"9f9caa38-b01b-4355-905f-10459cb677ea","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c95b5acc-0bca-4333-b98f-3fd2b9b4be93","path":"sprites/sBarBackground/sBarBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c95b5acc-0bca-4333-b98f-3fd2b9b4be93","path":"sprites/sBarBackground/sBarBackground.yy",},"LayerId":{"name":"41af4d62-fff2-4a9c-85ad-e03206376deb","path":"sprites/sBarBackground/sBarBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBarBackground","path":"sprites/sBarBackground/sBarBackground.yy",},"resourceVersion":"1.0","name":"c95b5acc-0bca-4333-b98f-3fd2b9b4be93","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnergyIcon","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},
+    "spriteId": {"name":"sBarBackground","path":"sprites/sBarBackground/sBarBackground.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9947dfdf-4a21-4dc0-ab64-9a542cc6bc06","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9f9caa38-b01b-4355-905f-10459cb677ea","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2af53244-5452-4954-b8db-b312d1100359","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c95b5acc-0bca-4333-b98f-3fd2b9b4be93","path":"sprites/sBarBackground/sBarBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnergyIcon","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},
+    "parent": {"name":"sBarBackground","path":"sprites/sBarBackground/sBarBackground.yy",},
     "resourceVersion": "1.3",
-    "name": "sEnergyIcon",
+    "name": "sBarBackground",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"60d357c1-8c59-4a59-8afb-363339e8ce12","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"41af4d62-fff2-4a9c-85ad-e03206376deb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/HUD.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sEnergyIcon",
+  "name": "sBarBackground",
   "tags": [],
   "resourceType": "GMSprite",
 }
