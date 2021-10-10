@@ -19,6 +19,8 @@ global.energy = 0;
 
 spoon_cooldown = 0.3;
 
+on_ladder = false;
+
 can_spoon = true;
 can_fork = true;
 can_knife = true;

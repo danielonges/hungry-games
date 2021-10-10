@@ -11,6 +11,30 @@ function player_movement(){
 		vsp = -jumpsp;
 	}
 	
+	// If get onto ladder
+	if (key_up || key_down) {
+		if (place_meeting(x, y, oLadder)) {
+			on_ladder = true;
+		}
+	}
+
+	// If currently on ladder
+	if (on_ladder) {
+		vsp = 0;
+		if (key_up) {
+			vsp = -2;
+		}
+		if (key_down) {
+			vsp = 2;
+		}
+		if (!place_meeting(x, y, oLadder)) {
+			on_ladder = false;
+		}
+		if (key_jump) {
+			on_ladder = true;
+		}
+	}
+
 	// Collision with enemy
 	if (place_meeting(x, y, oEnemy)) {
 		direction = oEnemy.hit_from;
