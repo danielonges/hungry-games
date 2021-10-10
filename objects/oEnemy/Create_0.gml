@@ -2,15 +2,23 @@
 // You can write your code in this editor
 
 // horizontal speed
-hsp = 0
+//hsp = 0;
 // vertical speed
 vsp = 0;
 // gravity
 grv = 0.3;
 // walking speed
-walksp = 3;
+walksp = 1;
+hsp = walksp;
 // jumping speed
 jumpsp = 6;
+//hsp = walksp;
+detect_distance = 100;
+
+prev_sp = hsp;
+is_knockbacked = false;
+
+knockback_fr = 0.1;
 
 hp = 5;
 max_hp = hp;
@@ -26,6 +34,7 @@ enemy_type = ENEMYTYPE.FAT;
 
 enum ENEMYSTATE {
 	FREE,
+	ATTACKING,
 	HIT,
 	DEAD
 }

@@ -12,6 +12,9 @@ walksp = 3;
 // jumping speed
 jumpsp = 6;
 
+is_knockbacked = false;
+knockback_fr = 1.0;
+
 hp = 20;
 max_hp = hp;
 
