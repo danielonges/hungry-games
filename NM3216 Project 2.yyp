@@ -26,6 +26,7 @@
     {"id":{"name":"oEnergyBarBorder","path":"objects/oEnergyBarBorder/oEnergyBarBorder.yy",},"order":6,},
     {"id":{"name":"fHealthBar","path":"fonts/fHealthBar/fHealthBar.yy",},"order":0,},
     {"id":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"order":0,},
+    {"id":{"name":"oPersistentDataHolder","path":"objects/oPersistentDataHolder/oPersistentDataHolder.yy",},"order":5,},
     {"id":{"name":"oHealthBarBackground","path":"objects/oHealthBarBackground/oHealthBarBackground.yy",},"order":0,},
     {"id":{"name":"PlayerState_Free","path":"scripts/PlayerState_Free/PlayerState_Free.yy",},"order":0,},
     {"id":{"name":"oEnergyIcon","path":"objects/oEnergyIcon/oEnergyIcon.yy",},"order":5,},
@@ -121,7 +122,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "NM3216 Project 2",
