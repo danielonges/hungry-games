@@ -19,4 +19,10 @@ switch (state) {
 	case PLAYERSTATE.ATTACK_SPOON:
 		PlayerState_Attack_Spoon();
 		break;
+	case PLAYERSTATE.ATTACK_FORK:
+		PlayerState_Attack_Fork();
+		break;
+	case PLAYERSTATE.ATTACK_KNIFE:
+		PlayerState_Attack_Knife();
+		break;
 }

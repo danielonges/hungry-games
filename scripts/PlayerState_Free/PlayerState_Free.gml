@@ -25,6 +25,18 @@ function PlayerState_Free() {
 	if (key_attack_spoon && can_spoon) {
 		state = PLAYERSTATE.ATTACK_SPOON;
 	}
+	
+	if (key_attack_fork && can_fork && global.energy >= fork_energy) {
+		global.energy -= fork_energy;
+		state = PLAYERSTATE.ATTACK_FORK;
+	}
+	
+	// can only knife when not jumping or falling
+	if (key_attack_knife && can_knife && global.energy >= knife_energy && place_meeting(x, y + 1, oWall)) {
+		global.energy -= knife_energy;
+		state = PLAYERSTATE.ATTACK_KNIFE;
+	}
+		
 
 	// TODO: implement rest of attacks
 }
