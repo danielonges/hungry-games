@@ -18,9 +18,19 @@ max_hp = global.hp;
 global.energy = 0;
 
 spoon_cooldown = 0.3;
+fork_cooldown = 5;
+knife_cooldown = 10;
+
+spoon_dmg = 1;
+fork_dmg = 3;
+knife_dmg = 6;
+
+fork_energy = 2;
+knife_energy = 3;
 
 on_ladder = false;
 
+// cooldown variables
 can_spoon = true;
 can_fork = true;
 can_knife = true;

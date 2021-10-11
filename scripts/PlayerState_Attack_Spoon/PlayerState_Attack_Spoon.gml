@@ -23,7 +23,7 @@ function PlayerState_Attack_Spoon() {
 				ds_list_add(hitByAttack, hitID);
 				with (hitID) {
 					// replace with spoon damage
-					EnemyHit(1);
+					EnemyHit(other.spoon_dmg);
 				}
 			}
 		}
