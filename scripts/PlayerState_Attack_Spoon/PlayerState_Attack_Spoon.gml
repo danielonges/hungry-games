@@ -1,6 +1,7 @@
 function PlayerState_Attack_Spoon() {
 	
 	player_movement();
+	image_speed = 1;
 
 	// start of attack
 	if (sprite_index != sPlayer_Attack_Spoon) {
@@ -33,5 +34,7 @@ function PlayerState_Attack_Spoon() {
 	if (animation_end()) {
 		sprite_index = sPlayer;
 		state = PLAYERSTATE.FREE;
+		can_spoon = false;
+		alarm[0] = room_speed * spoon_cooldown;
 	}
 }
