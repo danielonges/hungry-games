@@ -16,6 +16,16 @@ function player_movement(){
 		if (place_meeting(x, y, oLadder)) {
 			on_ladder = true;
 		}
+	} else {
+		// vertical collision with ladder
+		// lets player walk across the top of the ladder
+		if (place_meeting(x, y + vsp, oLadder)) {
+			on_ladder = false;
+			while (!place_meeting(x, y + sign(vsp), oLadder)) {
+				y += sign(vsp);
+			}
+			vsp = 0;
+		}
 	}
 
 	// If currently on ladder
