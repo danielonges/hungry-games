@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "RoomObjects",
+    "path": "folders/Objects/RoomObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLevelEnd",
