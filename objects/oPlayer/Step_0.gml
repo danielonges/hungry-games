@@ -5,8 +5,8 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check(vk_space);
-key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
+key_up = keyboard_check(ord("W"));
+key_down = keyboard_check(ord("S"));
 
 key_attack_spoon = keyboard_check(ord("J"));
 key_attack_fork = keyboard_check(ord("K"));
