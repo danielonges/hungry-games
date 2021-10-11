@@ -43,6 +43,7 @@
     {"id":{"name":"SlidesTransition","path":"scripts/SlidesTransition/SlidesTransition.yy",},"order":11,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":0,},
     {"id":{"name":"oEnergyBarBackground","path":"objects/oEnergyBarBackground/oEnergyBarBackground.yy",},"order":7,},
+    {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":22,},
     {"id":{"name":"sEnergyIcon","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"order":4,},
     {"id":{"name":"EnemyState_Free","path":"scripts/EnemyState_Free/EnemyState_Free.yy",},"order":7,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":3,},
@@ -50,6 +51,7 @@
     {"id":{"name":"sEnemy_Dead","path":"sprites/sEnemy_Dead/sEnemy_Dead.yy",},"order":1,},
     {"id":{"name":"enemy_movement","path":"scripts/enemy_movement/enemy_movement.yy",},"order":10,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -109,7 +111,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "NM3216 Project 2",
