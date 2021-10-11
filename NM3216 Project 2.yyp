@@ -25,7 +25,7 @@
     {"id":{"name":"sBarBackground","path":"sprites/sBarBackground/sBarBackground.yy",},"order":0,},
     {"id":{"name":"rInstructions","path":"rooms/rInstructions/rInstructions.yy",},"order":5,},
     {"id":{"name":"oEnergyBarBorder","path":"objects/oEnergyBarBorder/oEnergyBarBorder.yy",},"order":6,},
-    {"id":{"name":"fHealthBar","path":"fonts/fHealthBar/fHealthBar.yy",},"order":0,},
+    {"id":{"name":"fGeneralFont","path":"fonts/fGeneralFont/fGeneralFont.yy",},"order":0,},
     {"id":{"name":"oInvisibleWall","path":"objects/oInvisibleWall/oInvisibleWall.yy",},"order":0,},
     {"id":{"name":"oPersistentDataHolder","path":"objects/oPersistentDataHolder/oPersistentDataHolder.yy",},"order":5,},
     {"id":{"name":"oHealthBarBackground","path":"objects/oHealthBarBackground/oHealthBarBackground.yy",},"order":0,},
