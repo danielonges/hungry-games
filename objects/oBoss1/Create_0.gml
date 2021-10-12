@@ -15,6 +15,8 @@ jumpsp = 6;
 is_knockbacked = false;
 knockback_fr = 1.0;
 
+detect_distance = 200;
+
 hp = 20;
 max_hp = hp;
 
