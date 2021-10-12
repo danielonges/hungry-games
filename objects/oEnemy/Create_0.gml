@@ -30,7 +30,7 @@ attack_cooldown = 1;
 
 state = ENEMYSTATE.FREE;
 
-enemy_type = ENEMYTYPE.FATS;
+enemy_type = ENEMYTYPE.FAT;
 
 enum ENEMYSTATE {
 	FREE,
