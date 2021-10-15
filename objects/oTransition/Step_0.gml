@@ -18,10 +18,15 @@ if (mode != TRANS_MODE.OFF) {
 				break;
 			case TRANS_MODE.GOTO:
 				mode = TRANS_MODE.INTRO;
+				if (target == rMenu) {
+					reset_data();
+					destroy_hud();
+				}
 				room_goto(target);
 				break;
 			case TRANS_MODE.RESTART:
 				game_restart();
+				reset_data();
 				break;
 		}
 	}

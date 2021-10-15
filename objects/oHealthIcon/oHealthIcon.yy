@@ -31,7 +31,7 @@
     "path": "folders/Objects/HUD.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHeartIcon",
+  "name": "oHealthIcon",
   "tags": [],
   "resourceType": "GMObject",
 }
