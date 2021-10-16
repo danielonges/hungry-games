@@ -14,6 +14,7 @@ hsp = walksp;
 jumpsp = 6;
 //hsp = walksp;
 detect_distance = 100;
+attack_distance = 0;
 
 prev_sp = hsp;
 is_knockbacked = false;
@@ -50,4 +51,5 @@ enum ENEMYTYPE {
 	FAT,
 	PROTEIN,
 	CARB,
+	BOSS
 }

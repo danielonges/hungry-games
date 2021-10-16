@@ -15,3 +15,5 @@ detect_distance = 80;
 default_sprite = sCarb_Level1;
 attacking_sprite = sCarb_Level1_Attacking;
 attacking_HB = sCarb_Level1_AttackingHB;
+
+enemy_type = ENEMYTYPE.CARB
