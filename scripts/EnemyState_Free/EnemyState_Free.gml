@@ -4,8 +4,8 @@ function EnemyState_Free(){
 
 	enemy_movement();
 	
-	if (hsp != 0) {
-		image_xscale = sign(hsp);	
+	if (hsp != 0 && !is_knockbacked) {
+		image_xscale = -sign(hsp);	
 	}
 	
 	if (place_meeting(x, y, oPlayer)) {

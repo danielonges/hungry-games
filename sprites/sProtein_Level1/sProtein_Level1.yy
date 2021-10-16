@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "Protein",
+    "path": "folders/Sprites/Enemies/Protein.yy",
   },
   "resourceVersion": "1.0",
   "name": "sProtein_Level1",
