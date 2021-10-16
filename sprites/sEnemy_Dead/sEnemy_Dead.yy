@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "path": "folders/Sprites/Bosses/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemy_Dead",

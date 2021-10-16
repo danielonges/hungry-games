@@ -18,6 +18,8 @@ detect_distance = 100;
 prev_sp = hsp;
 is_knockbacked = false;
 
+has_hit_player = false;
+
 knockback_fr = 0.1;
 
 attack_dmg = 2;
