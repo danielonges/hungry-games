@@ -14,11 +14,16 @@ hsp = walksp;
 jumpsp = 6;
 //hsp = walksp;
 detect_distance = 100;
+attack_distance = 0;
 
 prev_sp = hsp;
 is_knockbacked = false;
 
+has_hit_player = false;
+
 knockback_fr = 0.1;
+
+attack_dmg = 2;
 
 hp = 5;
 max_hp = hp;
@@ -32,10 +37,13 @@ state = ENEMYSTATE.FREE;
 
 enemy_type = ENEMYTYPE.FAT;
 
+default_sprite = sEnemy;
+attacking_sprite = sEnemy;
+attacking_HB = sEnemy;
+
 enum ENEMYSTATE {
 	FREE,
 	ATTACKING,
-	HIT,
 	DEAD
 }
 
@@ -43,4 +51,5 @@ enum ENEMYTYPE {
 	FAT,
 	PROTEIN,
 	CARB,
+	BOSS
 }

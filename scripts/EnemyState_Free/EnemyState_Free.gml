@@ -3,4 +3,12 @@
 function EnemyState_Free(){
 
 	enemy_movement();
+	
+	if (hsp != 0 && !is_knockbacked) {
+		image_xscale = -sign(hsp);	
+	}
+	
+	if (place_meeting(x + attack_distance, y, oPlayer) || place_meeting(x - attack_distance, y, oPlayer)) {
+		state = ENEMYSTATE.ATTACKING;	
+	}
 }

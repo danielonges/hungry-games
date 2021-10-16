@@ -6,8 +6,8 @@ switch (state) {
 	case ENEMYSTATE.FREE:
 		EnemyState_Free();
 		break;
-	case ENEMYSTATE.HIT:
-		EnemyState_Hit();
+	case ENEMYSTATE.ATTACKING:
+		EnemyState_Attacking();
 		break;
 	case ENEMYSTATE.DEAD:
 		EnemyState_Dead();

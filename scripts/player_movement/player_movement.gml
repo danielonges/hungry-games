@@ -5,6 +5,23 @@ function player_movement(){
 	hsp = (key_right - key_left) * walksp;
 	// simulates gravity
 	vsp += grv;
+	
+	if (hit_from != 0) {
+		if (!is_knockbacked) {
+			prev_sp = hsp;	
+			is_knockbacked = true;
+		}
+		direction = hit_from;
+		hsp = hit_from;
+		hit_from -= sign(hit_from) * knockback_fr;
+	} else {
+		if (is_knockbacked) {
+			hsp = prev_sp;
+			is_knockbacked = false;
+		} else {
+			hsp = hsp;
+		}
+	}
 
 	// if we're standing on a floor
 	if (place_meeting(x, y + 1, oWall) && key_jump) {
@@ -45,15 +62,15 @@ function player_movement(){
 		}
 	}
 
-	// Collision with enemy
-	if (place_meeting(x, y, oEnemy)) {
-		direction = oEnemy.hit_from;
-		// bounce backwards upon collision
-		hsp = lengthdir_x(-sign(hsp) * 20, direction);
-		vsp = lengthdir_y(3, direction);
+	//// Collision with enemy
+	//if (place_meeting(x, y, oEnemy)) {
+	//	direction = oEnemy.hit_from;
+	//	// bounce backwards upon collision
+	//	hsp = lengthdir_x(-sign(hsp) * 20, direction);
+	//	vsp = lengthdir_y(3, direction);
 		
-		global.hp = clamp(global.hp - 2, 0, 30); // TODO: replace 2 with actual dmg dealt
-	}
+	//	global.hp = clamp(global.hp - 2, 0, 30); // TODO: replace 2 with actual dmg dealt
+	//}
 
 	// horizontal collision
 	if (place_meeting(x + hsp, y, oWall)) {

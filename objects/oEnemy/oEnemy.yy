@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sProtein_Level1",
+    "path": "sprites/sProtein_Level1/sProtein_Level1.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

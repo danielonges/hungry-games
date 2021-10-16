@@ -26,3 +26,5 @@ hit_from = 0;
 attack_cooldown = 1;
 
 state = ENEMYSTATE.FREE;
+
+enemy_type = ENEMYTYPE.BOSS;

@@ -25,4 +25,7 @@ switch (state) {
 	case PLAYERSTATE.ATTACK_KNIFE:
 		PlayerState_Attack_Knife();
 		break;
+	case PLAYERSTATE.DEAD:
+		PlayerState_Dead();
+		break;
 }

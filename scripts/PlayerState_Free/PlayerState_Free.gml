@@ -18,7 +18,7 @@ function PlayerState_Free() {
 	}
 
 	// flip sprite depending on which direction it's facing
-	if (hsp != 0) {
+	if (hsp != 0 && !is_knockbacked) {
 		image_xscale = sign(hsp);	
 	}
 
@@ -36,7 +36,5 @@ function PlayerState_Free() {
 		global.energy -= knife_energy;
 		state = PLAYERSTATE.ATTACK_KNIFE;
 	}
-		
 
-	// TODO: implement rest of attacks
 }
