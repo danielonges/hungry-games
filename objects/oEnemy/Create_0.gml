@@ -20,6 +20,8 @@ is_knockbacked = false;
 
 knockback_fr = 0.1;
 
+attack_dmg = 2;
+
 hp = 5;
 max_hp = hp;
 
@@ -32,10 +34,13 @@ state = ENEMYSTATE.FREE;
 
 enemy_type = ENEMYTYPE.FAT;
 
+default_sprite = sEnemy;
+attacking_sprite = sEnemy;
+attacking_HB = sEnemy;
+
 enum ENEMYSTATE {
 	FREE,
 	ATTACKING,
-	HIT,
 	DEAD
 }
 

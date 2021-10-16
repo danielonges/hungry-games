@@ -6,9 +6,7 @@ function EnemyHit(_damage){
 	flash = 3;
 	hit_from = sign(x - oPlayer.x) * 3;
 	
-	if (hp > 0) {
-		state = ENEMYSTATE.HIT;
-	} else {
+	if (hp <= 0) {
 		state = ENEMYSTATE.DEAD;
 	}
 }

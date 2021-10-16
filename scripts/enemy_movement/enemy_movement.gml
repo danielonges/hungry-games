@@ -4,7 +4,7 @@ function enemy_movement(){
 	
 
 	//	//// test out move towards player
-	if (distance_to_object(oPlayer) < detect_distance) {
+	if (distance_to_object(oPlayer) < detect_distance && distance_to_object(oPlayer) > 0) {
 		hsp = sign(oPlayer.x - x) * walksp; 
 	} else {
 		hsp = 0;

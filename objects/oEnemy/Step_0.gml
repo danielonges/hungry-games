@@ -7,9 +7,7 @@ switch (state) {
 		EnemyState_Free();
 		break;
 	case ENEMYSTATE.ATTACKING:
-		break;
-	case ENEMYSTATE.HIT:
-		EnemyState_Hit();
+		EnemyState_Attacking();
 		break;
 	case ENEMYSTATE.DEAD:
 		EnemyState_Dead(enemy_type, max_hp);
