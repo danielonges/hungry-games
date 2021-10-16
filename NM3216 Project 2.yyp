@@ -40,6 +40,7 @@
     {"id":{"name":"oHealthBarBackground","path":"objects/oHealthBarBackground/oHealthBarBackground.yy",},"order":0,},
     {"id":{"name":"oEnergyValue","path":"objects/oEnergyValue/oEnergyValue.yy",},"order":8,},
     {"id":{"name":"PlayerState_Free","path":"scripts/PlayerState_Free/PlayerState_Free.yy",},"order":0,},
+    {"id":{"name":"fGeneral","path":"fonts/fGeneral/fGeneral.yy",},"order":2,},
     {"id":{"name":"oEnergyIcon","path":"objects/oEnergyIcon/oEnergyIcon.yy",},"order":5,},
     {"id":{"name":"sPlayer_Running","path":"sprites/sPlayer_Running/sPlayer_Running.yy",},"order":3,},
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":2,},
