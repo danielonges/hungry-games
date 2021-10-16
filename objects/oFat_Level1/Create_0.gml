@@ -13,3 +13,5 @@ detect_distance = 100;
 default_sprite = sFat_Level1;
 attacking_sprite = sFat_Level1_Attacking;
 attacking_HB = sFat_Level1_AttackingHB;
+
+enemy_type = ENEMYTYPE.FAT;
