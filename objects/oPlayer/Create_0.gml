@@ -12,6 +12,11 @@ walksp = 3;
 // jumping speed
 jumpsp = 6;
 
+prev_sp = 0;
+is_knockbacked = false;
+hit_from = 0;
+knockback_fr = 0.2;
+
 max_hp = global.hp;
 
 spoon_cooldown = 0.3;
