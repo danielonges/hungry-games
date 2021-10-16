@@ -18,6 +18,7 @@ function EnemyState_Attacking(){
 		with (oPlayer) {
 			// kickback player
 			hit_from = sign(x - other.x) * 3;
+			flash = 3;
 			global.hp = clamp(global.hp - other.attack_dmg, 0, 30);		
 		}
 	}
