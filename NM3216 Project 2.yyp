@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":6,},
     {"id":{"name":"sPlayer_Attack_Fork","path":"sprites/sPlayer_Attack_Fork/sPlayer_Attack_Fork.yy",},"order":4,},
     {"id":{"name":"reset_data","path":"scripts/reset_data/reset_data.yy",},"order":12,},
     {"id":{"name":"EnemyHit","path":"scripts/EnemyHit/EnemyHit.yy",},"order":6,},
@@ -16,6 +17,7 @@
     {"id":{"name":"PlayerState_Attack_Knife","path":"scripts/PlayerState_Attack_Knife/PlayerState_Attack_Knife.yy",},"order":3,},
     {"id":{"name":"sPlayer_Attack_Knife","path":"sprites/sPlayer_Attack_Knife/sPlayer_Attack_Knife.yy",},"order":6,},
     {"id":{"name":"oLadder","path":"objects/oLadder/oLadder.yy",},"order":1,},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":7,},
     {"id":{"name":"oBossDead","path":"objects/oBossDead/oBossDead.yy",},"order":1,},
     {"id":{"name":"EnemyState_Dead","path":"scripts/EnemyState_Dead/EnemyState_Dead.yy",},"order":9,},
     {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},"order":4,},
@@ -116,9 +118,11 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
     {"roomId":{"name":"rInstructions","path":"rooms/rInstructions/rInstructions.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
