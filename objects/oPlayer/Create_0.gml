@@ -10,7 +10,7 @@ grv = 0.3;
 // walking speed
 walksp = 3;
 // jumping speed
-jumpsp = 6;
+jumpsp = 6.5;
 
 flash = 0;
 

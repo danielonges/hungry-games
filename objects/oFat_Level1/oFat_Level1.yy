@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Fat",
+    "path": "folders/Objects/Enemies/Fat.yy",
   },
   "resourceVersion": "1.0",
   "name": "oFat_Level1",
