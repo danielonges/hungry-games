@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Bosses/Enemies.yy",
+    "name": "NM3216 Project 2",
+    "path": "NM3216 Project 2.yyp",
   },
   "resourceVersion": "1.0",
   "name": "sSushi",
