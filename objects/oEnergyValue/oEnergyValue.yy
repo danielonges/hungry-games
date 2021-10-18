@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sHeartIcon",
-    "path": "sprites/sHeartIcon/sHeartIcon.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/HUD.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHeartIcon",
+  "name": "oEnergyValue",
   "tags": [],
   "resourceType": "GMObject",
 }
