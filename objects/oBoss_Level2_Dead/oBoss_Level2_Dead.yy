@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oBoss_Level1_Dead",
+    "path": "objects/oBoss_Level1_Dead/oBoss_Level1_Dead.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

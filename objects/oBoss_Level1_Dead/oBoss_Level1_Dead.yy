@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oCarb_Level1_Dead",
+    "path": "objects/oCarb_Level1_Dead/oCarb_Level1_Dead.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
