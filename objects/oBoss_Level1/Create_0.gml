@@ -14,5 +14,6 @@ attack_distance = 10;
 default_sprite = sBoss_Level1;
 attacking_sprite = sBoss_Level1_Attacking;
 attacking_HB = sBoss_Level1_AttackingHB;
+dead_obj = oBoss_Level1_Dead;
 
 enemy_type = ENEMYTYPE.BOSS;
