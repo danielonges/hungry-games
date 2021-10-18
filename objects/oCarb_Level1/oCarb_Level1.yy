@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Carb",
+    "path": "folders/Objects/Enemies/Carb.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCarb_Level1",

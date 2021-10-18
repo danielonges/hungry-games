@@ -41,6 +41,8 @@ default_sprite = sEnemy;
 attacking_sprite = sEnemy;
 attacking_HB = sEnemy;
 
+dead_obj = oEnemyDead;
+
 enum ENEMYSTATE {
 	FREE,
 	ATTACKING,

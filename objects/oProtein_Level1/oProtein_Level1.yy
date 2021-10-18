@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Protein",
+    "path": "folders/Objects/Enemies/Protein.yy",
   },
   "resourceVersion": "1.0",
   "name": "oProtein_Level1",
