@@ -4,7 +4,7 @@ function enemy_movement(){
 	
 
 	//	//// test out move towards player
-	if (distance_to_object(oPlayer) < detect_distance && distance_to_object(oPlayer) > 0) {
+	if (distance_to_object(oPlayer) < detect_distance && distance_to_object(oPlayer) > 0 && collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true) == noone) {
 		hsp = sign(oPlayer.x - x) * walksp; 
 	} else {
 		hsp = 0;
