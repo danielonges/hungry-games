@@ -1,3 +1,4 @@
+// textScale ranges from 0 to 1, and outlineOffset can be any integer
 // textScale can be 1 and outlineOffset can be 2 if no preference
 // textScale introduced because if you draw_text in the room,
 // since our room is zoomed in, the text becomes really pixelated for small fonts
