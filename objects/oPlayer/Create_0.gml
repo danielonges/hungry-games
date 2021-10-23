@@ -49,3 +49,16 @@ enum PLAYERSTATE {
 	ATTACK_KNIFE,
 	DEAD
 }
+
+// tutorial variables
+global.in_tutorial = room == rTutorial;
+tutorial_state = TUTORIALSTATE.INITIAL;
+has_not_spooned = true;
+
+enum TUTORIALSTATE {
+	INITIAL,
+	ATTACK,
+	KILLED_ONE,
+	KILLED_TWO,
+	KILLED_THREE
+}
