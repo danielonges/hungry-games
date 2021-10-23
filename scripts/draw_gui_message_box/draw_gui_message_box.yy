@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "draw_message_box",
+  "name": "draw_gui_message_box",
   "tags": [],
   "resourceType": "GMScript",
 }

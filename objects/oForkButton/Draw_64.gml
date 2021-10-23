@@ -16,5 +16,5 @@ if (oPlayer.alarm[1] != -1) {
 
 // show feedback for insufficient energy
 if (oPlayer.key_attack_fork && oPlayer.can_fork && global.energy < oPlayer.fork_energy) {
-	draw_message_box(x - 30, y - 100, "Insufficient\nEnergy!", make_color_rgb(235, 42, 42));
+	draw_gui_message_box(x - 30, y - 100, "Insufficient Energy!", fGeneral, make_color_rgb(235, 42, 42));
 }

@@ -24,8 +24,9 @@ if (menu_control) {
 
 if (menu_x > gui_width + 150) && (menu_committed != -1) {
 	switch (menu_committed) {
-		case 2: default: SlidesTransition(TRANS_MODE.GOTO, Room1); break;
-		case 1: SlidesTransition(TRANS_MODE.GOTO, rInstructions); break;
+		case 3: default: SlidesTransition(TRANS_MODE.GOTO, Room1); break;
+		case 2: SlidesTransition(TRANS_MODE.GOTO, rInstructions); break;
+		case 1: SlidesTransition(TRANS_MODE.GOTO, rTutorial); break;
 		case 0: game_end(); break;
 	}
 }

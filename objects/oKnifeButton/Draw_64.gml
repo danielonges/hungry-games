@@ -16,5 +16,5 @@ if (oPlayer.alarm[2] != -1) {
 
 // show feedback for insufficient energy
 if (oPlayer.key_attack_knife && oPlayer.can_knife && global.energy < oPlayer.knife_energy) {
-	draw_message_box(x - 30, y - 100, "Insufficient\nEnergy!", make_color_rgb(235, 42, 42));
+	draw_gui_message_box(x - 30, y - 100, "Insufficient\nEnergy!", fGeneral, make_color_rgb(235, 42, 42));
 }

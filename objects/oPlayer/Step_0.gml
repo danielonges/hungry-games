@@ -29,3 +29,22 @@ switch (state) {
 		PlayerState_Dead();
 		break;
 }
+
+// tutorial logic
+if (place_meeting(x, y, oTutorialTrigger) && has_not_spooned) {
+	tutorial_state = TUTORIALSTATE.ATTACK;
+	has_not_spooned = false;
+}
+var deadFats = instance_number(oFat_Level1_Dead);
+var deadCarbs = instance_number(oCarb_Level1_Dead);
+var deadProteins = instance_number(oProtein_Level1_Dead);
+var enemiesKilled = deadFats + deadCarbs + deadProteins;
+if (enemiesKilled == 1) {
+	tutorial_state = TUTORIALSTATE.KILLED_ONE;
+}
+if (enemiesKilled == 2) {
+	tutorial_state = TUTORIALSTATE.KILLED_TWO;
+}
+if (enemiesKilled == 3) {
+	tutorial_state = TUTORIALSTATE.KILLED_THREE;
+}
