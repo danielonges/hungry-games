@@ -134,6 +134,7 @@
     {"id":{"name":"oFat_Level2_Dead","path":"objects/oFat_Level2_Dead/oFat_Level2_Dead.yy",},"order":3,},
     {"id":{"name":"oHealthIcon","path":"objects/oHealthIcon/oHealthIcon.yy",},"order":4,},
     {"id":{"name":"sEnemy_Dead","path":"sprites/sEnemy_Dead/sEnemy_Dead.yy",},"order":1,},
+    {"id":{"name":"get_player_gui_coords","path":"scripts/get_player_gui_coords/get_player_gui_coords.yy",},"order":17,},
     {"id":{"name":"enemy_movement","path":"scripts/enemy_movement/enemy_movement.yy",},"order":10,},
     {"id":{"name":"fInstructions","path":"fonts/fInstructions/fInstructions.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},

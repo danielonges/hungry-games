@@ -15,6 +15,9 @@ if (oPlayer.alarm[2] != -1) {
 }
 
 // show feedback for insufficient energy
-if (oPlayer.key_attack_knife && oPlayer.can_knife && global.energy < oPlayer.knife_energy) {
-	draw_gui_message_box(x - 30, y - 100, "Insufficient\nEnergy!", fGeneral, make_color_rgb(235, 42, 42));
+if (oPlayer.key_attack_knife && global.energy < oPlayer.knife_energy && oPlayer.state != PLAYERSTATE.ATTACK_KNIFE) {
+	playerGuiCoords = get_player_gui_coords();
+	xx = playerGuiCoords[0];
+	yy = playerGuiCoords[1];
+	draw_gui_message_box(xx, yy, "Needs 3 Energy!", fGeneral, make_color_rgb(235, 42, 42));
 }

@@ -1,10 +1,9 @@
 /// @description Draw tutorial messages
 
 // calculate position of GUI element to be above player
-display_scalex = display_get_gui_width()/(halfViewWidth*2);
-display_scaley = display_get_gui_height()/(halfViewHeight*2);
-xx = (x - camera_get_view_x(view_camera[0])) * display_scalex;
-yy = (y - camera_get_view_y(view_camera[0])) * display_scaley;
+playerGuiCoords = get_player_gui_coords();
+xx = playerGuiCoords[0];
+yy = playerGuiCoords[1];
 
 if (global.in_tutorial) {
 	textToDisplay = "";
