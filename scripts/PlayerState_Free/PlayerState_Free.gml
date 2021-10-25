@@ -29,12 +29,20 @@ function PlayerState_Free() {
 	if (key_attack_fork && can_fork && global.energy >= fork_energy) {
 		global.energy -= fork_energy;
 		state = PLAYERSTATE.ATTACK_FORK;
+		with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+			changeAmt = other.fork_energy;
+			changeType = CHANGE_TYPE.LOSE_ENERGY;
+		}
 	}
 	
 	// can only knife when not jumping or falling
 	if (key_attack_knife && can_knife && global.energy >= knife_energy && place_meeting(x, y + 1, oWall)) {
 		global.energy -= knife_energy;
 		state = PLAYERSTATE.ATTACK_KNIFE;
+		with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+			changeAmt = other.knife_energy;
+			changeType = CHANGE_TYPE.LOSE_ENERGY;
+		}
 	}
 
 }
