@@ -19,7 +19,12 @@ function EnemyState_Attacking(){
 			// kickback player
 			hit_from = sign(x - other.x) * 3;
 			flash = 3;
-			global.hp = clamp(global.hp - other.attack_dmg, 0, 30);		
+			global.hp = clamp(global.hp - other.attack_dmg, 0, 30);
+			healthLost = other.attack_dmg;
+			with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+				changeAmt = other.healthLost;
+				changeType = CHANGE_TYPE.LOSE_HEALTH;
+			}
 		}
 	}
 	

@@ -9,18 +9,33 @@ function EnemyHit(_damage){
 	if (hp <= 0 && state != ENEMYSTATE.DEAD) {
 		state = ENEMYSTATE.DEAD;
 		switch (enemy_type) {
-		case ENEMYTYPE.FAT:
-		case ENEMYTYPE.CARB:
-			global.energy = clamp(global.energy + max_hp, 0, 30);
-			break;
-		case ENEMYTYPE.PROTEIN:
-			global.hp = clamp(global.hp + max_hp, 0, 30);
-			break;
-		case ENEMYTYPE.BOSS:
-			global.hp = clamp(global.hp + max_hp, 0, 30);
-			global.energy = clamp(global.energy + max_hp, 0, 30);
-			break;
-			
-	}
+			case ENEMYTYPE.FAT:
+			case ENEMYTYPE.CARB:
+				global.energy = clamp(global.energy + max_hp, 0, 30);
+				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+					changeAmt = other.max_hp;
+					changeType = CHANGE_TYPE.GAIN_ENERGY;
+				}
+				break;
+			case ENEMYTYPE.PROTEIN:
+				global.hp = clamp(global.hp + max_hp, 0, 30);
+				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+					changeAmt = other.max_hp;
+					changeType = CHANGE_TYPE.GAIN_HEALTH;
+				}
+				break;
+			case ENEMYTYPE.BOSS:
+				global.hp = clamp(global.hp + max_hp, 0, 30);
+				global.energy = clamp(global.energy + max_hp, 0, 30);
+				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+					changeAmt = other.max_hp;
+					changeType = CHANGE_TYPE.GAIN_HEALTH;
+				}
+				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
+					changeAmt = other.max_hp;
+					changeType = CHANGE_TYPE.GAIN_ENERGY;
+				}
+				break;
+			}
 	}
 }
