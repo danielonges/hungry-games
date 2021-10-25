@@ -1,4 +1,4 @@
-/// @description
+/// @description Bounce
 playerGuiCoords = get_player_gui_coords();
 yy = playerGuiCoords[1];
 randomYOffset = irandom_range(-30, 30);

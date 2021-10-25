@@ -6,6 +6,7 @@ gravity = irandom_range(3, 5);
 gravity_direction = 270;
 bounced = false;
 alarm[0] = 2 * room_speed;
+image_alpha = 1;
 
 // defaults will be changed when instantiated
 changeAmt = 0;
