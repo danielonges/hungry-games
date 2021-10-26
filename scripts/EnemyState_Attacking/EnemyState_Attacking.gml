@@ -2,7 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function EnemyState_Attacking(){
 	
-	enemy_movement();
+	//if (jump > 0) {
+	//	enemy_movement(jump);
+	//} else {
+	//	enemy_movement();
+	//}
+	hsp = 0;
+	vsp = 0;
+	
+	image_speed = 1;
 	
 	// switch sprite index to the attacking one
 	if (sprite_index != attacking_sprite) {
@@ -16,15 +24,7 @@ function EnemyState_Attacking(){
 	if (place_meeting(x, y, oPlayer) && !has_hit_player) {
 		has_hit_player = true;
 		with (oPlayer) {
-			// kickback player
-			hit_from = sign(x - other.x) * 3;
-			flash = 3;
-			global.hp = clamp(global.hp - other.attack_dmg, 0, 30);
-			healthLost = other.attack_dmg;
-			with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
-				changeAmt = other.healthLost;
-				changeType = CHANGE_TYPE.LOSE_HEALTH;
-			}
+			PlayerHit(other.attack_dmg);
 		}
 	}
 	

@@ -12,6 +12,7 @@ detect_distance = 140;
 attack_distance = 10;
 
 default_sprite = sBoss_Level2;
+walking_sprite = sBoss_Level2;
 attacking_sprite = sBoss_Level2_Attacking;
 attacking_HB = sBoss_Level2_AttackingHB;
 dead_obj = oBoss_Level2_Dead;
