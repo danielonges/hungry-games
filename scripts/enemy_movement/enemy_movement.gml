@@ -1,11 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function enemy_movement(){
-	
 
 	//	//// test out move towards player
 	if (distance_to_object(oPlayer) < detect_distance && distance_to_object(oPlayer) > 0 && collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true) == noone) {
-		hsp = sign(oPlayer.x - x) * walksp; 
+		hsp = sign(oPlayer.x - x) * walksp;
+		if (argument_count > 0 && place_meeting(x, y + 1, oWall)) {
+			vsp = -argument0;
+		}
 	} else {
 		hsp = 0;
 	}
@@ -60,4 +62,9 @@ function enemy_movement(){
 	}
 	y += vsp;
 	
+	if (hsp == 0) {
+		sprite_index = default_sprite;	
+	} else {
+		sprite_index = walking_sprite;	
+	}
 }

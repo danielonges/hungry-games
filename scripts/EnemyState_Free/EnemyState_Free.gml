@@ -2,7 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function EnemyState_Free(){
 
-	enemy_movement();
+	if (jump > 0) {
+		enemy_movement(jump);
+	} else {
+		enemy_movement();
+	}
 	
 	if (hsp != 0 && !is_knockbacked) {
 		image_xscale = -sign(hsp);	

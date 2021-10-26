@@ -33,11 +33,14 @@ hit_from = 0;
 
 attack_cooldown = 1;
 
+jump = 0;
+
 state = ENEMYSTATE.FREE;
 
 enemy_type = ENEMYTYPE.FAT;
 
 default_sprite = sEnemy;
+walking_sprite = sEnemy;
 attacking_sprite = sEnemy;
 attacking_HB = sEnemy;
 
