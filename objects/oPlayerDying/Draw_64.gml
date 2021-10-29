@@ -9,7 +9,7 @@ draw_set_alpha(1);
 if (percent == 1) {
 	draw_set_font(fMenu);
 	
-	var text = "You died!";
+	var text = "You died!\n\nPress ESC to return to menu.";
 	var offset = 2;
 	draw_set_color(c_black)
 	draw_text(w_half-offset, h_half, text);
