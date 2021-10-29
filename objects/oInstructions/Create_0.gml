@@ -33,6 +33,6 @@ menu[i++] = "K - Fork attack (5s cooldown, uses 2 Energy)";
 menu[i++] = "L - Knife attack (10s cooldown, uses 3 Energy)";
 menu[i++] = "Esc - Back to main menu";
 
-done_btn = "> Press enter to return to main menu";
+done_btn = "> Press Esc to return to main menu";
 
 menu_items = array_length(menu);
