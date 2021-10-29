@@ -2,3 +2,9 @@
 // Just needs to be instantiated once in the first room, before the player
 global.hp = 30;
 global.energy = 0;
+global.isPaused = false;
+
+isInPauseMenu = false;
+idx = 0;
+pauseMenuItems[idx++] = "Resume";
+pauseMenuItems[idx++] = "Exit to Menu";

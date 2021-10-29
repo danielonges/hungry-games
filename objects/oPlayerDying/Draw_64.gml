@@ -18,4 +18,8 @@ if (percent == 1) {
 	draw_text(w_half, h_half+offset, text);
 	draw_set_color(c_white);
 	draw_text(w_half, h_half, text);
+
+	if (keyboard_check_pressed(vk_escape)) {
+		SlidesTransition(TRANS_MODE.GOTO, rMenu);
+	}
 }
