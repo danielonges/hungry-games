@@ -43,6 +43,7 @@
     {"id":{"name":"sCarb_Level1_Dead","path":"sprites/sCarb_Level1_Dead/sCarb_Level1_Dead.yy",},"order":3,},
     {"id":{"name":"sPlayer_Attack_ForkHB","path":"sprites/sPlayer_Attack_ForkHB/sPlayer_Attack_ForkHB.yy",},"order":5,},
     {"id":{"name":"sPlayer_Attack_Spoon","path":"sprites/sPlayer_Attack_Spoon/sPlayer_Attack_Spoon.yy",},"order":2,},
+    {"id":{"name":"oPauseReminder","path":"objects/oPauseReminder/oPauseReminder.yy",},"order":10,},
     {"id":{"name":"sFat_Level1_Attacking","path":"sprites/sFat_Level1_Attacking/sFat_Level1_Attacking.yy",},"order":1,},
     {"id":{"name":"oBoss1","path":"objects/oBoss1/oBoss1.yy",},"order":0,},
     {"id":{"name":"sBarBackground","path":"sprites/sBarBackground/sBarBackground.yy",},"order":0,},
@@ -223,7 +224,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "NM3216 Project 2",

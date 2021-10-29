@@ -1,5 +1,5 @@
 /// @description Core Player Logic
-// You can write your code in this editor
+if (global.isPaused) { exit; }
 
 // get player inputs
 key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);

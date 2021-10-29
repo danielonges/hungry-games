@@ -13,6 +13,8 @@ function destroy_hud(){
 	with (oHealthIcon) instance_destroy();
 	with (oHealthValue) instance_destroy();
 
+	with (oPauseReminder) instance_destroy();
+
 	with (oSpoonButton) instance_destroy();
 	with (oForkButton) instance_destroy();
 	with (oKnifeButton) instance_destroy();

@@ -1,6 +1,5 @@
 /// @description Draw fork button as GUI
 buttonSize = 60;
-
 // show sprite with green overlay when using fork
 if (oPlayer.state == PLAYERSTATE.ATTACK_FORK) {
 	draw_sprite_stretched(sForkUseButton, 0, x, y, buttonSize, buttonSize);

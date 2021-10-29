@@ -1,5 +1,5 @@
-/// @description Core Player Logic
-// You can write your code in this editor
+/// @description Core Enemy Logic
+if (global.isPaused) { exit; }
 
 // get player inputs
 switch (state) {

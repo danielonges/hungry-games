@@ -27,6 +27,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oSpoonButton","path":"objects/oSpoonButton/oSpoonButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":672.0,"resourceVersion":"1.0","name":"inst_22E0FE57","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oForkButton","path":"objects/oForkButton/oForkButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":672.0,"resourceVersion":"1.0","name":"inst_1C32B0DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oKnifeButton","path":"objects/oKnifeButton/oKnifeButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":672.0,"resourceVersion":"1.0","name":"inst_B1548B8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oPauseReminder","path":"objects/oPauseReminder/oPauseReminder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":32.0,"resourceVersion":"1.0","name":"inst_1630FAFC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"HUD","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Knife","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -342,6 +343,7 @@
     {"name":"inst_1C32B0DB","path":"rooms/rTutorial/rTutorial.yy",},
     {"name":"inst_B1548B8","path":"rooms/rTutorial/rTutorial.yy",},
     {"name":"inst_223134","path":"rooms/rTutorial/rTutorial.yy",},
+    {"name":"inst_1630FAFC","path":"rooms/rTutorial/rTutorial.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
