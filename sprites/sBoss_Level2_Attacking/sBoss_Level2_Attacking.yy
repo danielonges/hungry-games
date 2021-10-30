@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 76,
-  "bbox_top": 3,
+  "bbox_left": 3,
+  "bbox_right": 77,
+  "bbox_top": 1,
   "bbox_bottom": 107,
   "HTile": false,
   "VTile": false,
@@ -24,57 +24,49 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"99231ef2-334f-4895-a2e9-c558060b2ec3","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"99231ef2-334f-4895-a2e9-c558060b2ec3","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"99231ef2-334f-4895-a2e9-c558060b2ec3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b1b98983-ec41-40e5-960e-fde065730725","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b1b98983-ec41-40e5-960e-fde065730725","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"b1b98983-ec41-40e5-960e-fde065730725","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7f1792ea-189d-4f97-b0a1-18797306ea2b","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f1792ea-189d-4f97-b0a1-18797306ea2b","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"7f1792ea-189d-4f97-b0a1-18797306ea2b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"282201ad-6551-4b5d-9694-cb7997322e11","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"282201ad-6551-4b5d-9694-cb7997322e11","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"282201ad-6551-4b5d-9694-cb7997322e11","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f4b6f07f-d581-4a81-8b93-c560afc90e6a","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f4b6f07f-d581-4a81-8b93-c560afc90e6a","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"f4b6f07f-d581-4a81-8b93-c560afc90e6a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dc0d9f58-52be-489c-8747-bdf35a21f075","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc0d9f58-52be-489c-8747-bdf35a21f075","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"dc0d9f58-52be-489c-8747-bdf35a21f075","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f3134131-20d7-454f-b0c7-29c9f4ea1dff","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f3134131-20d7-454f-b0c7-29c9f4ea1dff","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"f3134131-20d7-454f-b0c7-29c9f4ea1dff","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b74fc48b-ea73-4d3e-a038-fb80f694d81c","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b74fc48b-ea73-4d3e-a038-fb80f694d81c","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"b74fc48b-ea73-4d3e-a038-fb80f694d81c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"098dcaa6-505a-446e-8b7b-778e6e1237b7","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"098dcaa6-505a-446e-8b7b-778e6e1237b7","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"098dcaa6-505a-446e-8b7b-778e6e1237b7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ac223800-fe25-4b9e-9826-0c42d19caedc","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ac223800-fe25-4b9e-9826-0c42d19caedc","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"ac223800-fe25-4b9e-9826-0c42d19caedc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"be5308a9-4847-4f5d-bbb4-a5ed4077a35e","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"be5308a9-4847-4f5d-bbb4-a5ed4077a35e","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"be5308a9-4847-4f5d-bbb4-a5ed4077a35e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f7fabcd4-f213-4da0-bccc-485d4fd8a37e","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f7fabcd4-f213-4da0-bccc-485d4fd8a37e","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"f7fabcd4-f213-4da0-bccc-485d4fd8a37e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"650391f0-baef-4775-91bd-a3455efd8630","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"650391f0-baef-4775-91bd-a3455efd8630","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"650391f0-baef-4775-91bd-a3455efd8630","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7f640689-da18-422e-97dc-4e7a8d9119d0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7f640689-da18-422e-97dc-4e7a8d9119d0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"7f640689-da18-422e-97dc-4e7a8d9119d0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"76c8c2a0-6822-4c3d-8a52-a378e27e59b2","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"76c8c2a0-6822-4c3d-8a52-a378e27e59b2","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"76c8c2a0-6822-4c3d-8a52-a378e27e59b2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0d1443ac-c56b-4ff5-8a6c-d14d571df27f","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0d1443ac-c56b-4ff5-8a6c-d14d571df27f","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"LayerId":{"name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","name":"0d1443ac-c56b-4ff5-8a6c-d14d571df27f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sBoss_Level2_Attacking","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 9.0,
+    "length": 7.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4d5034c6-5ea9-4057-8148-41781e56bf11","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99231ef2-334f-4895-a2e9-c558060b2ec3","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"25262f89-2d32-493d-9b34-5ad780977921","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b1b98983-ec41-40e5-960e-fde065730725","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"cd2f3ca0-906a-462f-99c9-d4da216f7677","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f1792ea-189d-4f97-b0a1-18797306ea2b","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e49c8de6-2d23-4f1f-bcb4-a6d3e78536c9","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"282201ad-6551-4b5d-9694-cb7997322e11","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"cc90d97c-f422-4c4e-ae2b-9724cf3e2d07","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4b6f07f-d581-4a81-8b93-c560afc90e6a","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"03313c20-b51d-49ad-93e9-ec1edc2af005","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc0d9f58-52be-489c-8747-bdf35a21f075","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0f46fe1c-2bce-4cfb-b972-70efe590596f","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f3134131-20d7-454f-b0c7-29c9f4ea1dff","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2d9cdf34-73ed-47e8-bfc2-738977126f08","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b74fc48b-ea73-4d3e-a038-fb80f694d81c","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"467402ae-a02a-44b8-903c-5a0455a4bc8d","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"098dcaa6-505a-446e-8b7b-778e6e1237b7","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"c5062f85-d026-42cd-8ed8-a94f8feae3f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac223800-fe25-4b9e-9826-0c42d19caedc","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"531647df-be44-4420-9044-766f746b4834","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"be5308a9-4847-4f5d-bbb4-a5ed4077a35e","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d502a145-49b8-422f-889a-7d95304b3643","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7fabcd4-f213-4da0-bccc-485d4fd8a37e","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d637df02-b93f-4207-802e-66eeca1716e4","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"650391f0-baef-4775-91bd-a3455efd8630","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c180c9b7-2ebe-4c04-b105-a5b79632cace","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f640689-da18-422e-97dc-4e7a8d9119d0","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bdc88f3a-6ef3-4ddf-9351-881b4d0fa849","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76c8c2a0-6822-4c3d-8a52-a378e27e59b2","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e21d38e6-7398-40ed-b9c8-30986ce9b42a","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d1443ac-c56b-4ff5-8a6c-d14d571df27f","path":"sprites/sBoss_Level2_Attacking/sBoss_Level2_Attacking.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,7 +78,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 51,
+    "xorigin": 52,
     "yorigin": 71,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -97,7 +89,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5884cd56-3f92-4562-bbfe-ea3d32f5fa58","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"73bef6ff-5047-45c5-b1a6-0b45e0e122c0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

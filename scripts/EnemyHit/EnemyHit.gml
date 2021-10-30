@@ -9,7 +9,6 @@ function EnemyHit(_damage){
 	if (hp <= 0 && state != ENEMYSTATE.DEAD) {
 		state = ENEMYSTATE.DEAD;
 		switch (enemy_type) {
-			case ENEMYTYPE.FAT:
 			case ENEMYTYPE.CARB:
 				global.energy = clamp(global.energy + max_hp, 0, 30);
 				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
@@ -17,6 +16,7 @@ function EnemyHit(_damage){
 					changeType = CHANGE_TYPE.GAIN_ENERGY;
 				}
 				break;
+			case ENEMYTYPE.BOSS:
 			case ENEMYTYPE.PROTEIN:
 				global.hp = clamp(global.hp + max_hp, 0, 30);
 				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
@@ -24,10 +24,9 @@ function EnemyHit(_damage){
 					changeType = CHANGE_TYPE.GAIN_HEALTH;
 				}
 				break;
-			case ENEMYTYPE.BOSS:
+			case ENEMYTYPE.FAT:
 				global.hp = clamp(global.hp + max_hp, 0, 30);
-				// have boss only replenish hp and not energy
-				//global.energy = clamp(global.energy + max_hp, 0, 30);
+				global.energy = clamp(global.energy + max_hp, 0, 30);
 				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
 					changeAmt = other.max_hp;
 					changeType = CHANGE_TYPE.GAIN_HEALTH;
