@@ -4,16 +4,16 @@ function PlayerState_Free() {
 
 	//// animation
 	if (!place_meeting(x, y + 1, oWall) && !on_ladder) {
-		sprite_index = sPlayer_Running;
+		sprite_index = player_running_sprite;
 		image_speed = 0;
 		if (vsp > 0) image_index = 2;
 		else image_index = 0;
 	} else {
 		image_speed = 1;
 		if (hsp == 0 || on_ladder) {
-			sprite_index = sPlayer;	
+			sprite_index = player_sprite;	
 		} else {
-			sprite_index = sPlayer_Running;	
+			sprite_index = player_running_sprite;	
 		}
 	}
 

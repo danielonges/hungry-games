@@ -139,6 +139,7 @@
     {"id":{"name":"oCarb_Level2_Dead","path":"objects/oCarb_Level2_Dead/oCarb_Level2_Dead.yy",},"order":4,},
     {"id":{"name":"sEnergyIcon","path":"sprites/sEnergyIcon/sEnergyIcon.yy",},"order":4,},
     {"id":{"name":"oBoss_Level1","path":"objects/oBoss_Level1/oBoss_Level1.yy",},"order":2,},
+    {"id":{"name":"oPlayerTeen","path":"objects/oPlayerTeen/oPlayerTeen.yy",},"order":4,},
     {"id":{"name":"sProjectile_Fries","path":"sprites/sProjectile_Fries/sProjectile_Fries.yy",},"order":13,},
     {"id":{"name":"EnemyState_Free","path":"scripts/EnemyState_Free/EnemyState_Free.yy",},"order":7,},
     {"id":{"name":"oFat_Level3_Dead","path":"objects/oFat_Level3_Dead/oFat_Level3_Dead.yy",},"order":5,},

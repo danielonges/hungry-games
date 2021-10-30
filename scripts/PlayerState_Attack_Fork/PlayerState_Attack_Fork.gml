@@ -6,15 +6,15 @@ function PlayerState_Attack_Fork(){
 	image_speed = 1;
 
 	// start of attack
-	if (sprite_index != sPlayer_Attack_Fork) {
-		sprite_index = sPlayer_Attack_Fork;
+	if (sprite_index != player_fork_sprite) {
+		sprite_index = player_fork_sprite;
 		image_index = 0;
 		
 		ds_list_clear(hitByAttack);
 	}
 
 	//// use attack hitbox and check for hits
-	mask_index = sPlayer_Attack_ForkHB;
+	mask_index = player_fork_spriteHB;
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x, y, oEnemy, hitByAttackNow, false);
 	if (hits > 0) {
@@ -31,10 +31,10 @@ function PlayerState_Attack_Fork(){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = sPlayer;
+	mask_index = player_sprite;
 	
 	if (animation_end()) {
-		sprite_index = sPlayer;
+		sprite_index = player_sprite;
 		state = PLAYERSTATE.FREE;
 		can_fork = false;
 		alarm[1] = room_speed * fork_cooldown;

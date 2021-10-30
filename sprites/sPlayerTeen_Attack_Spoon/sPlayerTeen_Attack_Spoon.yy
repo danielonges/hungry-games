@@ -53,7 +53,7 @@
     "spriteId": {"name":"sPlayerTeen_Attack_Spoon","path":"sprites/sPlayerTeen_Attack_Spoon/sPlayerTeen_Attack_Spoon.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 20.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

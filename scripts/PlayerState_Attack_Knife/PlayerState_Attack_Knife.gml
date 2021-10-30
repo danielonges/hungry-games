@@ -5,12 +5,8 @@ function PlayerState_Attack_Knife(){
 	hsp = 0;
 	vsp = 0;
 	
-	if (sprite_index != sPlayer_Attack_Knife) {
-		sprite_index = sPlayer_Attack_Knife;
-	}
-
-	if (can_knife) {
-		
+	if (sprite_index != player_knife_sprite) {
+		sprite_index = player_knife_sprite;
 	}
 	
 	if (animation_end()) {
@@ -19,7 +15,7 @@ function PlayerState_Attack_Knife(){
 			direction = other.image_xscale < 0 ? 180 : 0;
 			image_xscale = other.image_xscale;
 		}
-		sprite_index = sPlayer;
+		sprite_index = player_sprite;
 		state = PLAYERSTATE.FREE;
 		can_knife = false;
 		alarm[2] = room_speed * knife_cooldown;
