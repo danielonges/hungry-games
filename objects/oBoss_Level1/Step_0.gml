@@ -1,4 +1,7 @@
 /// @description
+if (!alarm[9] && !projectile_attack) {
+	alarm[9] = room_speed * 10;	
+}
 
 // get player inputs
 switch (state) {
@@ -6,10 +9,9 @@ switch (state) {
 		EnemyState_Free();
 		break;
 	case ENEMYSTATE.ATTACKING: {
-		if (attack_count < 3) {
+		if (!projectile_attack) {
 			EnemyState_Attacking();
 		} else {
-			attack_count = 0;
 			EnemyState_ProjectileAttack();
 		}
 		break;
