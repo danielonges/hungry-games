@@ -1,5 +1,5 @@
 /// @description Draw spoon button as GUI
-buttonSize = 60;
+buttonSize = 75;
 
 // show sprite with green overlay when using spoon
 if (oPlayer.state == PLAYERSTATE.ATTACK_SPOON) {
