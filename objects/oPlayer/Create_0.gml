@@ -1,4 +1,4 @@
-/// @description Establish some key variables
+ /// @description Establish some key variables
 // You can write your code in this editor
 
 // horizontal speed
@@ -41,6 +41,15 @@ can_knife = true;
 
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
+
+// sprites
+player_sprite = sPlayer;
+player_running_sprite = sPlayer_Running;
+player_spoon_sprite = sPlayer_Attack_Spoon;
+player_spoon_spriteHB = sPlayer_Attack_SpoonHB;
+player_fork_sprite = sPlayer_Attack_Fork;
+player_fork_spriteHB = sPlayer_Attack_ForkHB;
+player_knife_sprite = sPlayer_Attack_Knife;
 
 enum PLAYERSTATE {
 	FREE,
