@@ -1,4 +1,4 @@
-/// @description Establish some key variables
+ /// @description Establish some key variables
 // You can write your code in this editor
 
 // horizontal speed
