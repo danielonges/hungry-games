@@ -31,7 +31,8 @@ max_hp = hp;
 flash = 0;
 hit_from = 0;
 
-attack_cooldown = 1;
+attack_cooldown = 0.5;
+can_attack = true;
 
 jump = 0;
 

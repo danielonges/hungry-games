@@ -33,6 +33,8 @@ function EnemyState_Attacking(){
 	// use animation end
 	if (animation_end()) {
 		sprite_index = default_sprite;
+		alarm[3] = room_speed * attack_cooldown;
+		can_attack = false
 		state = ENEMYSTATE.FREE;
 		has_hit_player = false;
 	}
