@@ -26,7 +26,8 @@ function EnemyHit(_damage){
 				break;
 			case ENEMYTYPE.BOSS:
 				global.hp = clamp(global.hp + max_hp, 0, 30);
-				global.energy = clamp(global.energy + max_hp, 0, 30);
+				// have boss only replenish hp and not energy
+				//global.energy = clamp(global.energy + max_hp, 0, 30);
 				with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
 					changeAmt = other.max_hp;
 					changeType = CHANGE_TYPE.GAIN_HEALTH;
