@@ -39,6 +39,7 @@
     {"id":{"name":"oEnemyDead","path":"objects/oEnemyDead/oEnemyDead.yy",},"order":1,},
     {"id":{"name":"sFat_Level1","path":"sprites/sFat_Level1/sFat_Level1.yy",},"order":0,},
     {"id":{"name":"oFat_Level1","path":"objects/oFat_Level1/oFat_Level1.yy",},"order":0,},
+    {"id":{"name":"sGameLogo","path":"sprites/sGameLogo/sGameLogo.yy",},"order":5,},
     {"id":{"name":"sBoss_Level3","path":"sprites/sBoss_Level3/sBoss_Level3.yy",},"order":10,},
     {"id":{"name":"sCarb_Level1_Dead","path":"sprites/sCarb_Level1_Dead/sCarb_Level1_Dead.yy",},"order":3,},
     {"id":{"name":"sPlayer_Attack_ForkHB","path":"sprites/sPlayer_Attack_ForkHB/sPlayer_Attack_ForkHB.yy",},"order":5,},
