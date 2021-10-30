@@ -5,6 +5,11 @@ global.energy = 0;
 global.isPaused = false;
 global.previousLevel = Room1;
 
+w = display_get_gui_width();
+h = display_get_gui_height();
+h_half = h / 2;
+w_half = w / 2;
+
 isInPauseMenu = false;
 idx = 0;
 pauseMenuItems[idx++] = "Resume";

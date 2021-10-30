@@ -23,8 +23,8 @@ if (percent == 1) {
 	draw_set_font(fMenu);
 	draw_set_alpha(1);
 	draw_set_color(c_white);
-	draw_text(room_width / 2, room_height / 2 + 50, "Press R to restart level");
-	draw_text(room_width / 2, room_height / 2 + 100, "Press ESC to return to menu");
+	draw_text(w_half, h_half + 50, "Press R to restart level");
+	draw_text(w_half, h_half + 100, "Press ESC to return to menu");
 
 	if (keyboard_check_pressed(vk_escape)) {
 		SlidesTransition(TRANS_MODE.GOTO, rMenu);
