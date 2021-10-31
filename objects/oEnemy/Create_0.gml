@@ -59,3 +59,7 @@ enum ENEMYTYPE {
 	CARB,
 	BOSS
 }
+
+deathSndPriority = 20;
+hitSndPriority = 18;
+attackSndPriority = 19;

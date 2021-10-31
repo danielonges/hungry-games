@@ -24,11 +24,13 @@ function PlayerState_Free() {
 
 	if (key_attack_spoon && can_spoon) {
 		state = PLAYERSTATE.ATTACK_SPOON;
+		audio_play_sound(sndSpoonAttack, attackSndPriority, false);
 	}
 	
 	if (key_attack_fork && can_fork && global.energy >= fork_energy) {
 		global.energy -= fork_energy;
 		state = PLAYERSTATE.ATTACK_FORK;
+		audio_play_sound(sndForkAttack, attackSndPriority, false);
 		with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
 			changeAmt = other.fork_energy;
 			changeType = CHANGE_TYPE.LOSE_ENERGY;
@@ -39,6 +41,7 @@ function PlayerState_Free() {
 	if (key_attack_knife && can_knife && global.energy >= knife_energy && place_meeting(x, y + 1, oWall)) {
 		global.energy -= knife_energy;
 		state = PLAYERSTATE.ATTACK_KNIFE;
+		audio_play_sound(sndKnifeAttack, attackSndPriority, false);
 		with (instance_create_layer(x, y, "Player", oHealthEnergyFeedback)) {
 			changeAmt = other.knife_energy;
 			changeType = CHANGE_TYPE.LOSE_ENERGY;

@@ -8,6 +8,7 @@ function EnemyHit(_damage){
 	
 	if (hp <= 0 && state != ENEMYSTATE.DEAD) {
 		state = ENEMYSTATE.DEAD;
+		audio_play_sound(sndEnemyDeath, deathSndPriority, false);
 		switch (enemy_type) {
 			case ENEMYTYPE.CARB:
 				global.energy = clamp(global.energy + max_hp, 0, 30);
@@ -36,6 +37,8 @@ function EnemyHit(_damage){
 					changeType = CHANGE_TYPE.GAIN_ENERGY;
 				}
 				break;
-			}
+		}
+	} else {
+		audio_play_sound(sndEnemyHit, hitSndPriority, false);
 	}
 }
