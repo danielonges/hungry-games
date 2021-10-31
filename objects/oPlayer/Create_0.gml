@@ -71,3 +71,7 @@ enum TUTORIALSTATE {
 	KILLED_TWO,
 	KILLED_THREE
 }
+
+deathSndPriority = 30;
+hitSndPriority = 29;
+attackSndPriority = 28;

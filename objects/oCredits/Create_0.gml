@@ -13,9 +13,8 @@ menu_itemheight = font_get_size(fInstructions);
 menu_committed = -1;
 
 i = 0;
-menu[i++] = "HUNGRY GAMES, 2021";
-menu[i++] = "";
-menu[i++] = "[Main Credits]";
+menu[i++] = "[HUNGRY GAMES, 2021]";
+menu[i++] = "[MAIN CREDITS]";
 menu[i++] = "Daniel Ong Ee Shaeon - Lead Programmer";
 menu[i++] = "";
 menu[i++] = "Joel Chin Jin En - Designer, Artist";
@@ -24,8 +23,16 @@ menu[i++] = "Tay Wan Tian, Celeste - Producer, Lead Artist";
 menu[i++] = "";
 menu[i++] = "Wong Chi Shan - QA Tester, Programmer";
 menu[i++] = "";
-menu[i++] = "[Additional Credits]";
-menu[i++] = "Epidemic Sound - https://www.epidemicsound.com/track/bcbfzSviqh/";
+menu[i++] = "[ADDITIONAL CREDITS]";
+menu[i++] = "Player Damaged Sounds - 'Cartoon Voice 17' on Epidemic Sound";
+menu[i++] = "https://www.epidemicsound.com/track/bcbfzSviqh/";
+menu[i++] = "";
+menu[i++] = "Weapon Attack Sounds & Enemy Damaged Sound - 'Knives & Swords' on Epidemic Sound";
+menu[i++] = "https://www.epidemicsound.com/sound-effects/knives-swords/";
+menu[i++] = "";
+menu[i++] = "Enemy Death Sound - 'Ketchup Squish' on Epidemic Sound";
+menu[i++] = "https://www.epidemicsound.com/track/8Io49tuzUK/";
+
 
 done_btn = "> Press Esc to return to main menu";
 
