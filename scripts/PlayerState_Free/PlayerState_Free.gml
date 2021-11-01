@@ -1,6 +1,10 @@
 function PlayerState_Free() {
 	
 	player_movement();
+	
+	if (place_meeting(x, y, oDeathFloor)) {
+		global.hp = 0;
+	}
 
 	//// animation
 	if (!place_meeting(x, y + 1, oWall) && !on_ladder) {
