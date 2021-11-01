@@ -10,7 +10,7 @@ max_hp = hp;
 
 jump = 10;
 
-detect_distance = 140;
+detect_distance = 600;
 attack_distance = 10;
 
 default_sprite = sBoss_Level2;
