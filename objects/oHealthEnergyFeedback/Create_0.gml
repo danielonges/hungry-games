@@ -1,12 +1,13 @@
 /// @description
 
 // basic config
-vspeed = irandom_range(-15, -5);
-gravity = irandom_range(3, 5);
-gravity_direction = 270;
-bounced = false;
 alarm[0] = 2 * room_speed;
 image_alpha = 1;
+
+// generate random x and y offsets
+// to minimise overlaps between multiple instances
+randomXOffset = irandom_range(-25, 25);
+randomYOffset = irandom(50);
 
 // defaults will be changed when instantiated
 changeAmt = 0;
