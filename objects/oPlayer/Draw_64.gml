@@ -5,6 +5,13 @@ playerGuiCoords = get_player_gui_coords();
 xx = playerGuiCoords[0];
 yy = playerGuiCoords[1];
 
+if (place_meeting(x, y, oLevelEnd) && (room == Room2 || room == Room4)) {
+	if (oLevelEnd.has_boss && !instance_exists(oLevelEnd.dead_boss)) {
+		guiCoords = get_player_gui_coords();
+		draw_gui_message_box(guiCoords[0] - 80, guiCoords[1], "Kill Boss to Proceed!", fGeneral, make_color_rgb(235, 42, 42));
+	}
+}
+
 if (global.in_tutorial) {
 	textToDisplay = "";
 	switch (tutorial_state) {
