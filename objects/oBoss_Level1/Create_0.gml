@@ -8,7 +8,7 @@ attack_dmg = 2;
 hp = 20;
 max_hp = hp;
 
-detect_distance = 1000;
+detect_distance = 500;
 attack_distance = 10;
 
 default_sprite = sBoss_Level1;
