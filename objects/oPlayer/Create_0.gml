@@ -62,7 +62,9 @@ enum PLAYERSTATE {
 // tutorial variables
 global.in_tutorial = room == rTutorial;
 tutorial_state = TUTORIALSTATE.INITIAL;
-has_not_spooned = true;
+has_spooned = false;
+has_forked = false;
+has_knifed = false;
 
 enum TUTORIALSTATE {
 	INITIAL,

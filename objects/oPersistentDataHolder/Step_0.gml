@@ -14,11 +14,14 @@ if (global.isPaused) {
 	// alarms will keep going even if obj paused
 	// if alarms running, need to increase each step while paused
 	// so when you unpause, it ends up the same value before pause
-	for (var i = 0; i < 3; i++) {
-		if (oPlayer.alarm[i] != -1) {
-			oPlayer.alarm[i]++;
+	if (instance_exists(oPlayer)) {
+		for (var i = 0; i < 3; i++) {
+			if (oPlayer.alarm[i] != -1) {
+				oPlayer.alarm[i]++;
+			}
 		}
 	}
+
 	if (instance_exists(oHealthEnergyFeedback)) {
 		if (oHealthEnergyFeedback.alarm[0] != -1) {
 			oHealthEnergyFeedback.alarm[0]++;
@@ -26,8 +29,12 @@ if (global.isPaused) {
 	}
 
 	// stop animations
-	oPlayer.image_speed = 0;
-	oEnemy.image_speed = 0;
+	if (instance_exists(oPlayer)) {
+		oPlayer.image_speed = 0;
+	}
+	if (instance_exists(oEnemy)) {
+		oEnemy.image_speed = 0;
+	}
 
 	// keyboard controls
 	if (isInPauseMenu) {
