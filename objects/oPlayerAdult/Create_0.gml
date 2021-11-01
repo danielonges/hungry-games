@@ -10,3 +10,6 @@ player_spoon_spriteHB = sPlayerAdult_Attack_SpoonHB;
 player_fork_sprite = sPlayerAdult_Attack_Fork;
 player_fork_spriteHB = sPlayerAdult_Attack_ForkHB;
 player_knife_sprite = sPlayerAdult_Attack_Knife;
+
+fork_dmg += 2;
+knife_dmg += 2;

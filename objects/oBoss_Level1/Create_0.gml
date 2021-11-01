@@ -5,6 +5,8 @@ event_inherited();
 
 attack_dmg = 2;
 
+jump = 2;
+
 hp = 20;
 max_hp = hp;
 
