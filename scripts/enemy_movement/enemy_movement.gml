@@ -3,11 +3,14 @@
 function enemy_movement(){
 
 	//	//// test out move towards player
-	if (distance_to_object(oPlayer) < detect_distance && distance_to_object(oPlayer) > 0 && collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true) == noone) {
-		hsp = sign(oPlayer.x - x) * walksp;
-		if (argument_count > 0 && place_meeting(x, y + 1, oWall)) {
-			vsp = -argument0;
-		}
+	if (distance_to_object(oPlayer) < detect_distance
+		&& distance_to_object(oPlayer) > 0
+		&& collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, true) == noone
+		&& !oPlayer.on_ladder) {
+			hsp = sign(oPlayer.x - x) * walksp;
+			if (argument_count > 0 && place_meeting(x, y + 1, oWall)) {
+				vsp = -argument0;
+			}
 	} else {
 		hsp = 0;
 	}
@@ -33,6 +36,11 @@ function enemy_movement(){
 		}
 	}
 	
+	if (oPlayer.on_ladder) {
+		if (place_meeting(x, y + vsp, oLadder) || place_meeting(x + hsp, y, oLadder)) {
+			hsp = -sign(x) * walksp;
+		}
+	}
 
 	// horizontal collision
 	if (place_meeting(x + hsp, y, oWall)) {
