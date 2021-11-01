@@ -97,6 +97,7 @@
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":2,},
     {"id":{"name":"sProtein_Level1","path":"sprites/sProtein_Level1/sProtein_Level1.yy",},"order":0,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"level3bg","path":"sprites/level3bg/level3bg.yy",},"order":10,},
     {"id":{"name":"sTutorialTrigger","path":"sprites/sTutorialTrigger/sTutorialTrigger.yy",},"order":4,},
     {"id":{"name":"oTutorialCarbTrigger","path":"objects/oTutorialCarbTrigger/oTutorialCarbTrigger.yy",},"order":9,},
     {"id":{"name":"sCarb_Level1","path":"sprites/sCarb_Level1/sCarb_Level1.yy",},"order":0,},
