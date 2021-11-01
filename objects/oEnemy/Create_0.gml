@@ -63,3 +63,8 @@ enum ENEMYTYPE {
 deathSndPriority = 20;
 hitSndPriority = 18;
 attackSndPriority = 19;
+
+// tutorial
+firstCarb = instance_nearest(oTutorialCarbTrigger.x, oTutorialCarbTrigger.y, oCarb_Level1);
+firstFat = instance_nearest(oTutorialFatTrigger.x, oTutorialFatTrigger.y, oFat_Level1);
+firstProtein = instance_nearest(oTutorialProteinTrigger.x, oTutorialProteinTrigger.y, oProtein_Level1);

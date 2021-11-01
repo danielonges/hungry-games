@@ -31,20 +31,21 @@ switch (state) {
 }
 
 // tutorial logic
-if (place_meeting(x, y, oTutorialTrigger) && has_not_spooned) {
+if (global.in_tutorial && global.energy == 0) {
+	global.energy = 15;
+}
+if (place_meeting(x, y, oTutorialTrigger) && !has_spooned) {
 	tutorial_state = TUTORIALSTATE.ATTACK;
-	has_not_spooned = false;
 }
-var deadFats = instance_number(oFat_Level1_Dead);
-var deadCarbs = instance_number(oCarb_Level1_Dead);
-var deadProteins = instance_number(oProtein_Level1_Dead);
-var enemiesKilled = deadFats + deadCarbs + deadProteins;
-if (enemiesKilled == 1) {
+if (key_attack_spoon && !has_spooned) {
 	tutorial_state = TUTORIALSTATE.KILLED_ONE;
+	has_spooned = true;
 }
-if (enemiesKilled == 2) {
+if (key_attack_fork && !has_forked && has_spooned) {
 	tutorial_state = TUTORIALSTATE.KILLED_TWO;
+	has_forked = true;
 }
-if (enemiesKilled == 3) {
+if (key_attack_knife && !has_knifed && has_spooned && has_forked) {
 	tutorial_state = TUTORIALSTATE.KILLED_THREE;
+	has_knifed = true;
 }
