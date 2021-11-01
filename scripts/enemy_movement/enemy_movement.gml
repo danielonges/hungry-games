@@ -36,10 +36,19 @@ function enemy_movement(){
 		}
 	}
 	
+	// move away from ladder if player on ladder
 	if (oPlayer.on_ladder) {
 		if (place_meeting(x, y + vsp, oLadder) || place_meeting(x + hsp, y, oLadder)) {
 			hsp = -sign(x) * walksp;
 		}
+	}
+
+	// vertical collision with ladder
+	if (place_meeting(x, y + vsp, oLadder)) {
+		while (!place_meeting(x, y + sign(vsp), oLadder)) {
+			y += sign(vsp);
+		}
+		vsp = 0;
 	}
 
 	// horizontal collision
