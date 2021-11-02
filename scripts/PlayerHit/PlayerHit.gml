@@ -6,10 +6,9 @@ function PlayerHit(_dmg){
 	flash = 3;
 	global.hp = clamp(global.hp - _dmg, 0, 30);
 	healthLost = _dmg;
-	//if (instance_exists(oPlayerMan)) {
-		//audio_play_sound(sndManHit, 1, false);
-	//} TODO after Man implemented
-	if (instance_exists(oPlayerTeen)) {
+	if (instance_exists(oPlayerAdult)) {
+		audio_play_sound(sndManHit, hitSndPriority, false);
+	} else if (instance_exists(oPlayerTeen)) {
 		audio_play_sound(sndTeenHit, hitSndPriority, false);
 	} else {
 		audio_play_sound(sndBoyHit, hitSndPriority, false);

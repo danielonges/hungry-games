@@ -62,10 +62,9 @@ function PlayerState_Free() {
 
 	if (global.hp <= 0) {
 		state = PLAYERSTATE.DEAD;
-		//if (instance_exists(oPlayerMan)) {
-			//audio_play_sound(sndManDeath, deathSndPriority, false);
-		//}
-		if (instance_exists(oPlayerTeen)) {
+		if (instance_exists(oPlayerAdult)) {
+			audio_play_sound(sndManDeath, deathSndPriority, false);
+		} else if (instance_exists(oPlayerTeen)) {
 			audio_play_sound(sndTeenDeath, deathSndPriority, false);
 		} else {
 			audio_play_sound(sndBoyDeath, deathSndPriority, false);
