@@ -14,10 +14,10 @@ detect_distance = 100;
 
 jump = 5;
 
-default_sprite = sCarb_Level1;
-walking_sprite = sCarb_Level1;
-attacking_sprite = sCarb_Level1_Attacking;
-attacking_HB = sCarb_Level1_AttackingHB;
+default_sprite = sCarb_Level3;
+walking_sprite = sCarb_Level3;
+attacking_sprite = sCarb_Level3_Attacking;
+attacking_HB = sCarb_Level3_AttackingHB;
 dead_obj = oCarb_Level3_Dead;
 
 enemy_type = ENEMYTYPE.CARB

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sProtein_Level1_Dead",
-    "path": "sprites/sProtein_Level1_Dead/sProtein_Level1_Dead.yy",
+    "name": "sProtein_Level3_Dead",
+    "path": "sprites/sProtein_Level3_Dead/sProtein_Level3_Dead.yy",
   },
   "solid": false,
   "visible": true,

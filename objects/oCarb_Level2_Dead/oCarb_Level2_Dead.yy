@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sCarb_Level1_Dead",
-    "path": "sprites/sCarb_Level1_Dead/sCarb_Level1_Dead.yy",
+    "name": "SCarb_Level2_Dead",
+    "path": "sprites/SCarb_Level2_Dead/SCarb_Level2_Dead.yy",
   },
   "solid": false,
   "visible": true,

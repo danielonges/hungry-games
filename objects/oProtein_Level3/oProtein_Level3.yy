@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "sProtein_Level1",
-    "path": "sprites/sProtein_Level1/sProtein_Level1.yy",
+    "name": "sProtein_Level3",
+    "path": "sprites/sProtein_Level3/sProtein_Level3.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "sProtein_Level1",
-    "path": "sprites/sProtein_Level1/sProtein_Level1.yy",
+    "name": "sProtein_Level3",
+    "path": "sprites/sProtein_Level3/sProtein_Level3.yy",
   },
   "persistent": false,
   "parentObjectId": {
