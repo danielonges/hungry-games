@@ -12,9 +12,10 @@ attack_dmg = 3;
 
 detect_distance = 110;
 
-default_sprite = sProtein_Level1;
-attacking_sprite = sProtein_Level1_Attacking;
-attacking_HB = sProtein_Level1_AttackingHB;
+default_sprite = sProtein_Level2;
+walking_sprite = sProtein_Level2_Walking;
+attacking_sprite = sProtein_Level2_Attacking;
+attacking_HB = sProtein_Level2_AttackingHB;
 dead_obj = oProtein_Level2_Dead;
 
 enemy_type = ENEMYTYPE.PROTEIN;

@@ -12,10 +12,10 @@ max_hp = hp;
 
 detect_distance = 140;
 
-default_sprite = sFat_Level1;
-walking_sprite = sFat_Level1_Attacking;
-attacking_sprite = sFat_Level1_Attacking;
-attacking_HB = sFat_Level1_Attacking;
+default_sprite = sFat_Level3;
+walking_sprite = sFat_Level3_Attacking;
+attacking_sprite = sFat_Level3_Attacking;
+attacking_HB = sFat_Level3_Attacking;
 dead_obj = oFat_Level3_Dead;
 
 enemy_type = ENEMYTYPE.FAT;

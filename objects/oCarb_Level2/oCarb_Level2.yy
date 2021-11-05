@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "sCarb_Level1",
-    "path": "sprites/sCarb_Level1/sCarb_Level1.yy",
+    "name": "sCarb_Level2",
+    "path": "sprites/sCarb_Level2/sCarb_Level2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "sCarb_Level1",
-    "path": "sprites/sCarb_Level1/sCarb_Level1.yy",
+    "name": "sCarb_Level2",
+    "path": "sprites/sCarb_Level2/sCarb_Level2.yy",
   },
   "persistent": false,
   "parentObjectId": {

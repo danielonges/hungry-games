@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "sFat_Level1",
-    "path": "sprites/sFat_Level1/sFat_Level1.yy",
+    "name": "sFat_Level2",
+    "path": "sprites/sFat_Level2/sFat_Level2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "sFat_Level1",
-    "path": "sprites/sFat_Level1/sFat_Level1.yy",
+    "name": "sFat_Level2",
+    "path": "sprites/sFat_Level2/sFat_Level2.yy",
   },
   "persistent": false,
   "parentObjectId": {

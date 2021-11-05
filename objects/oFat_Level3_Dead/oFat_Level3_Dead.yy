@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFat_Level1_Dead",
-    "path": "sprites/sFat_Level1_Dead/sFat_Level1_Dead.yy",
+    "name": "sFat_Level3_Dead",
+    "path": "sprites/sFat_Level3_Dead/sFat_Level3_Dead.yy",
   },
   "solid": false,
   "visible": true,
