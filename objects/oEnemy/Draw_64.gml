@@ -14,7 +14,7 @@ if (global.in_tutorial) {
 		draw_gui_message_box(fatGuiCoords[0], fatGuiCoords[1] - 35, fatText, fGeneral, c_gray);
 	}
 
-	proteinText = "Proteins give you moderate energy!";
+	proteinText = "Proteins give you health!";
 	if (instance_exists(firstProtein)) {
 		proteinGuiCoords = get_enemy_gui_coords(firstProtein);
 		draw_gui_message_box(proteinGuiCoords[0], proteinGuiCoords[1] - 35, proteinText, fGeneral, c_gray);
