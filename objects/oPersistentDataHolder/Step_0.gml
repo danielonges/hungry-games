@@ -1,5 +1,5 @@
 /// @description Set pause
-if (room != rMenu && room != rInstructions && room != rCredits && !global.hasFinishedGame) {
+if (room != rMenu && room != rInstructions && room != rCredits && room != rGameStart && room != rGameEnd) {
 	if (keyboard_check_pressed(vk_escape) && global.hp > 0) {
 		global.isPaused = !global.isPaused;
 		isInPauseMenu = true;

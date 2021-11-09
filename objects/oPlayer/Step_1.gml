@@ -7,5 +7,5 @@ if (global.hp <= 0) {
 }
 
 if (room == Room6 && instance_exists(oBoss_Level3_Dead)) {
-	global.hasFinishedGame = true;
+	SlidesTransition(TRANS_MODE.GOTO, rGameEnd);
 }
