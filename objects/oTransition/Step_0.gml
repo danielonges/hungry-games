@@ -18,7 +18,7 @@ if (mode != TRANS_MODE.OFF) {
 				break;
 			case TRANS_MODE.GOTO:
 				mode = TRANS_MODE.INTRO;
-				if (target == rMenu) {
+				if (target == rMenu || target == rGameEnd) {
 					reset_data();
 					destroy_hud();
 				}

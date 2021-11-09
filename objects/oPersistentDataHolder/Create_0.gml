@@ -4,7 +4,6 @@ global.hp = 30;
 global.energy = 0;
 global.isPaused = false;
 global.previousLevel = Room1;
-global.hasFinishedGame = false;
 
 w = display_get_gui_width();
 h = display_get_gui_height();
