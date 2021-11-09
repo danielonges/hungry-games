@@ -21,7 +21,7 @@ knockback_fr = 0.2;
 
 max_hp = global.hp;
 
-spoon_cooldown = 0.3;
+spoon_cooldown = 0.5;
 fork_cooldown = 5;
 knife_cooldown = 10;
 

@@ -12,7 +12,7 @@ function EnemyState_Free(){
 		image_xscale = -sign(hsp);	
 	}
 	
-	if ((place_meeting(x + attack_distance, y, oPlayer) || place_meeting(x - attack_distance, y, oPlayer)) && can_attack) {
+	if ((place_meeting(x + attack_distance, y, oPlayer) || place_meeting(x, y, oPlayer) || place_meeting(x - attack_distance, y, oPlayer)) && can_attack) {
 		state = ENEMYSTATE.ATTACKING;	
 	}
 }

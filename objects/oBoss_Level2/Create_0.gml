@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-attack_dmg = 1;
+attack_dmg = 2;
 
 hp = 25;
 max_hp = hp;

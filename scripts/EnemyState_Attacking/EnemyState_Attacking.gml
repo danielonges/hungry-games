@@ -18,6 +18,8 @@ function EnemyState_Attacking(){
 		image_index = 0;
 	}
 	
+	
+	
 	// using the attack hitbox
 	mask_index = attacking_HB;
 	
@@ -31,7 +33,7 @@ function EnemyState_Attacking(){
 	mask_index = default_sprite;
 	
 	// use animation end
-	if (animation_end()) {
+	if (animation_end() || sprite_get_number(attacking_sprite) == 1) {
 		sprite_index = default_sprite;
 		alarm[3] = room_speed * attack_cooldown;
 		can_attack = false
