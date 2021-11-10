@@ -4,14 +4,14 @@ draw_set_font(fInstructions);
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
-for (var i = 0; i < menu_items; i++) {
+for (var i = startIdx; i < endIdx; i++) {
 	var offset = 2;
 	var txt = menu[i];
 
 	var col = c_white;
 
 	var xx = menu_x;
-	var yy = menu_y + (menu_itemheight * i * 2);
+	var yy = menu_y + (menu_itemheight * (i - startIdx) * 1.5);
 
 	draw_set_color(c_black);
 	draw_text(xx-offset, yy, txt);
@@ -23,8 +23,18 @@ for (var i = 0; i < menu_items; i++) {
 }
 
 draw_set_halign(fa_right);
-btn_x = gui_width;
-btn_y = gui_height - gui_margin;
+btn_x = gui_width - 5;
+btn_y = gui_height - gui_margin - 20;
+draw_set_color(c_black);
+draw_text(btn_x-2, btn_y, next_btn);
+draw_text(btn_x+2, btn_y, next_btn);
+draw_text(btn_x, btn_y-2, next_btn);
+draw_text(btn_x, btn_y+2, next_btn);
+draw_set_color(c_white);
+draw_text(btn_x, btn_y, next_btn);
+
+draw_set_halign(fa_right);
+btn_y += 30;
 draw_set_color(c_black);
 draw_text(btn_x-2, btn_y, done_btn);
 draw_text(btn_x+2, btn_y, done_btn);
