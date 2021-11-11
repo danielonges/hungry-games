@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"30982f1b-0346-49bd-bfd2-0c5e7fbf41dc","path":"sprites/sProjectile_Blueberries/sProjectile_Blueberries.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"30982f1b-0346-49bd-bfd2-0c5e7fbf41dc","path":"sprites/sProjectile_Blueberries/sProjectile_Blueberries.yy",},"LayerId":{"name":"145f88f2-7ddf-4c78-8262-02b2903e004b","path":"sprites/sProjectile_Blueberries/sProjectile_Blueberries.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"30982f1b-0346-49bd-bfd2-0c5e7fbf41dc","path":"sprites/sProjectile_Blueberries/sProjectile_Blueberries.yy",},"LayerId":{"name":"2868ffaa-04cc-4387-88e4-8251a06e744f","path":"sprites/sProjectile_Blueberries/sProjectile_Blueberries.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sProjectile_Blueberries","path":"sprites/sProjectile_Blueberries/sProjectile_Blueberries.yy",},"resourceVersion":"1.0","name":"30982f1b-0346-49bd-bfd2-0c5e7fbf41dc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2868ffaa-04cc-4387-88e4-8251a06e744f","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"145f88f2-7ddf-4c78-8262-02b2903e004b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
