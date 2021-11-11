@@ -40,10 +40,10 @@ state = ENEMYSTATE.FREE;
 
 enemy_type = ENEMYTYPE.FAT;
 
-default_sprite = sEnemy;
-walking_sprite = sEnemy;
-attacking_sprite = sEnemy;
-attacking_HB = sEnemy;
+default_sprite = pointer_null;
+walking_sprite = pointer_null;
+attacking_sprite = pointer_null;
+attacking_HB = pointer_null;
 
 dead_obj = oEnemyDead;
 
