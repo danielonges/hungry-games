@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sEnemy_Dead",
-    "path": "sprites/sEnemy_Dead/sEnemy_Dead.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
