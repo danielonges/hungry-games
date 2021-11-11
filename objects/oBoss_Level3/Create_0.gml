@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-walksp = 1.5;
+walksp = 2;
 
 attack_dmg = 3;
 
