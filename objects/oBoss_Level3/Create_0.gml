@@ -5,7 +5,7 @@ event_inherited();
 
 walksp = 1.5;
 
-attack_dmg = 2;
+attack_dmg = 3;
 
 hp = 35;
 max_hp = hp;

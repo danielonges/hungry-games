@@ -8,6 +8,7 @@ switch (room) {
 	case rInstructions:
 	case rCredits:
 	case rTutorial:
+	case rGameStart:
 		if (current_sound != sndMainMenu) {
 			audio_stop_sound(current_sound);
 			audio_play_sound(sndMainMenu, bgSndPriority, true);
@@ -57,5 +58,11 @@ switch (room) {
 			current_sound = sndBoss3;
 		}
 		break;
-	// add for game completion level
+	case rGameEnd:
+		if (current_sound != sndFinishGame) {
+			audio_stop_sound(current_sound);
+			audio_play_sound(sndFinishGame, bgSndPriority, true);
+			current_sound = sndFinishGame;
+		}
+		break;
 }
