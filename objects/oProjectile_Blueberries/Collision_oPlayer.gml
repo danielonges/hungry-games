@@ -1,7 +1,7 @@
 /// @description Collide with player
 
 with (other) {
-	PlayerHit(2);
+	PlayerHit(3);
 }
 
 instance_destroy();
